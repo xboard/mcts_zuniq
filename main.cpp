@@ -15,7 +15,7 @@ int main() {
     cerr << "Zuniq version 0.8.0" << " (" << __DATE__ << " " << __TIME__ << ")" << endl;
 #ifdef QUIET_MODE
     cerr << "Zuniq rules: https://www.codecup.nl/zuniq/rules.php" << endl;
-    cerr << "For more information, check: https://github.com/xboard/zuniq" << endl;
+    cerr << "For more information, check: https://github.com/xboard/mcts_zuniq" << endl;
     cerr << "Type a valid move or 'Start' to play as black. Type 'Quit' to finish game." << endl;
 #endif
     game_loop();
