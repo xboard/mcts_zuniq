@@ -1,7 +1,7 @@
 Zuniq
 ======
 
-My  submission to [CodeCup](https://www.codecup.nl/zuniq) 2021. [Ranked](https://www.codecup.nl/competition.php?comp=264) 15º among 57 contestants.
+My  submission to [CodeCup](https://www.codecup.nl/zuniq) 2021. Ranked [15º](https://www.codecup.nl/competition.php?comp=264) among 57 contestants.
 
 ![C++17](https://img.shields.io/badge/C++17-00599C?logo=C%2B%2B&logoColor=white&style=flat)
 [![CMake](https://github.com/xboard/mcts_zuniq/workflows/CMake/badge.svg)](https://github.com/xboard/mcts_zuniq/actions?query=workflow%3ACMake)
