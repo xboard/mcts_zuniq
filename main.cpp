@@ -12,7 +12,7 @@
 #include "zuniq.hpp"
 
 int main() {
-    cerr << "Zuniq version 0.8.0" << " (" << __DATE__ << " " << __TIME__ << ")" << endl;
+    cerr << "Zuniq version 1.0.0" << " (" << __DATE__ << " " << __TIME__ << ")" << endl;
 #ifdef QUIET_MODE
     cerr << "Zuniq rules: https://www.codecup.nl/zuniq/rules.php" << endl;
     cerr << "For more information, check: https://github.com/xboard/mcts_zuniq" << endl;
