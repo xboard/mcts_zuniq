@@ -3,8 +3,8 @@ Zuniq
 
 My submission to [CodeCup](https://www.codecup.nl/zuniq) 2021.
 
-[![CMake](https://github.com/xboard/zuniq/workflows/CMake/badge.svg)](https://github.com/xboard/zuniq/actions?query=workflow%3ACMake)
-[![Build Status](https://travis-ci.com/xboard/zuniq.svg?token=kzFi7uxzUNyuZFTEpPEx&branch=master)](https://travis-ci.com/xboard/zuniq)
+<img src="https://img.shields.io/badge/C++17-00599C?logo=C%2B%2B&logoColor=white&style=flat"/>
+[![CMake](https://github.com/xboard/mcts_zuniq/workflows/CMake/badge.svg)](https://github.com/xboard/mcts_zuniq/actions?query=workflow%3ACMake)
 [![License](https://img.shields.io/badge/license-GPL3.0-blue.svg)](https://opensource.org/licenses/GPL-3.0)
 ## Setting up the build
 
@@ -37,17 +37,6 @@ in directory `build/`
 
 * [An Introduction to Monte Carlo Tree Search](https://github.com/italiancpp/cppday19/blob/master/An%20Introduction%20toMonte%20Carlo%20Tree%20Search%20-%20Manlio%20Morini.pdf)
 
-* [Pocket MCTS @ Github](https://github.com/morinim/pocket_mcts)
-
-* [MCTS Lynx3](https://github.com/lwevers/lynx/blob/master/Lynx3.java)
-
-* [MCTS for Poly-Y](https://research.utwente.nl/files/5338881/polyy.pdf)
-
-* [All-Moves-As-First Heuristics in Monte Carlo Go](https://users.soe.ucsc.edu/~dph/mypubs/AMAFpaperWithRef.pdf)
-
-* [MCTS in Hex](http://webdocs.cs.ualberta.ca/~hayward/papers/mcts-hex.pdf)
-
-* [Bitboard Design for Connect 4](https://github.com/denkspuren/BitboardC4/blob/master/BitboardDesign.md)
 
 ## Zuniq API and simple app
 
