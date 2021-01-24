@@ -43,6 +43,9 @@ in directory `build/`
 
 <p align="center"><img src="/img/zuniq_black.gif" alt="Playing as black"/></p>
 
+
+Click [here](https://www.codecup.nl/zuniq/rules.php) to learn the rules of Zuniq.
+
 ## References
 
 * [An Introduction to Monte Carlo Tree Search](https://github.com/italiancpp/cppday19/blob/master/An%20Introduction%20toMonte%20Carlo%20Tree%20Search%20-%20Manlio%20Morini.pdf)
