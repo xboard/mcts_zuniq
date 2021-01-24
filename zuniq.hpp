@@ -852,7 +852,9 @@ public:
         MCTSNode root = MCTSNode(sgs, nullptr, make_optional<Move>(), rng_);
         for (uint32_t i = 0; i < num_rounds_; i++) {
             if ((i % 10 == 0) && (timer.elapsed_milli() >= ts_->max_move_time(ctx))) {
+#ifndef QUIET_MODE                
                 cerr << "[I]: num_rounds: " << i << "/" << num_rounds_ << endl;
+#endif                
                 break;
             }
             MCTSNode *node = &root;
@@ -1027,12 +1029,16 @@ void game_loop() {
             }
         } else if (holds_alternative<Move>(parsed)) {
             Move move = std::get<Move>(parsed);
+#ifndef QUIET_MODE            
             cerr << "[I]: Opp took " << opponent_timer.elapsed_milli() << "ms " << IO::format_move(move) << '\n';
+#endif
             bool is_winning = false;
             if (!board.is_valid(move)) throw std::runtime_error("Move " + IO::format_move(move) + " is invalid!");
             board.apply_move(move);
             ++round_number;
+#ifndef QUIET_MODE            
             cerr << "[I]: rnd " << round_number << " #avail_moves " << board.get_available_moves().size() << endl;
+#endif            
             elapsed_time += timer.elapsed_milli();
             timer.start();
             if (round_number < NUM_RANDOM_MOVE_ROUNDS)
