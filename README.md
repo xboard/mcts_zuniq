@@ -11,6 +11,13 @@ My  submission to [CodeCup](https://www.codecup.nl/zuniq) 2021. Ranked [15º](ht
 
 ## Setting up the build
 
+Dependencies:
+* `g++ 7.5+` or `clang++ 3.8+`
+* `CMake 3.16+`
+
+The test suite uses [Catch](https://github.com/catchorg/Catch2) v2.13 but it is already included in the `lib` directory.
+
+After cloning this repository (or uncompressing a [release](https://github.com/xboard/mcts_zuniq/release)), go to the source code diretory and write:
 ```shell
 mkdir -p build
 cd build/
@@ -44,6 +51,6 @@ in directory `build/`
 ## Zuniq API and simple app
 
 Boris_de_Wilde's [API](https://dewildeit.nl/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config) and
-[web app](https://dewildeit.nl/zuniq/) to play against your own bot.
+[web app](https://dewildeit.nl/zuniq/) to play against this (or other) engine in a web interface.
 
 
