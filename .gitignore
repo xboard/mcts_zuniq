@@ -2,6 +2,8 @@
 /cmake-build-debug-coverage/
 /cmake-build-release/
 /cmake-build-release-quiet/
+/build
+/.vscode
 /main_submit.cpp
 /a.out
 /cppcheck.txt

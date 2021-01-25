@@ -12,6 +12,7 @@
 #include "zuniq.hpp"
 
 int main() {
+    assert(false); // should never abort. If it does, define NDEBUG.
     cerr << "Zuniq version 1.0.0" << " (" << __DATE__ << " " << __TIME__ << ")" << endl;
 #ifdef QUIET_MODE
     cerr << "Zuniq rules: https://www.codecup.nl/zuniq/rules.php" << endl;

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# author: Flavio Regis de Arruda
 
 import re
 from pathlib import Path
