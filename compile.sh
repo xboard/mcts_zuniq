@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# author: Flavio Regis de Arruda
 FILE=main_submit.cpp
 
 rm $FILE

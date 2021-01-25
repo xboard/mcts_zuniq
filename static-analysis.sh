@@ -1,4 +1,5 @@
 #!/bin/bash
+# author: Flavio Regis de Arruda
 
 # Remove files from previous executions.
 rm -f cppcheck.txt clang-tidy.txt
