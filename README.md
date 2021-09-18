@@ -5,7 +5,6 @@ My  submission to [CodeCup](https://www.codecup.nl/zuniq) 2021. Ranked [15º](ht
 
 ![C++17](https://img.shields.io/badge/C++17-00599C?logo=C%2B%2B&logoColor=white&style=flat)
 [![CMake](https://github.com/xboard/mcts_zuniq/workflows/CMake/badge.svg)](https://github.com/xboard/mcts_zuniq/actions?query=workflow%3ACMake)
-[![CI](https://travis-ci.com/xboard/mcts_zuniq.svg?branch=main)](https://travis-ci.com/github/xboard/mcts_zuniq)
 [![License](https://img.shields.io/badge/license-GPL3.0-blue.svg)](https://opensource.org/licenses/GPL-3.0)
 
 
